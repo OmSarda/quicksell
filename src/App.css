@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-color: rgb(221, 227, 227);
+}
+
+.columns {
+  display: flex;
+  padding: 30px;
+  flex-direction: row;
+}
+nav {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  display: flex;
+}
+
+.card {
+  background-color: white;
+  width: 280px;
+  height: auto;
+  border-radius: 5px;
+  padding: 28px;
+  margin: 12px 12px 18px 18px;
+  border: 1px solid black;
+}
+#card {
+  font-size: x-small;
+}
+.colbox {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid rgb(114, 113, 113); */
+  width: auto;
+  align-items: center;
+}
+.card-head {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.card-head img {
+  margin-left: 190px;
+  margin-top: 4px;
+}
+
+.card-head h3 {
+  margin-top: 9.7px;
+  color: #a4a8ad;
+}
+
+#tag {
+  border: 1px solid #a4a8ad;
+  padding: 5px;
+  border-radius: 5px;
+  color: #a4a8ad;
+  width: fit-content;
+  font-size: x-small;
+  /* margin: auto; */
+}
